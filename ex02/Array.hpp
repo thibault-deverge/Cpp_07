@@ -21,3 +21,5 @@ public:
     // Member functions
     unsigned int size() const;
 };
+
+#include "Array.tpp"
