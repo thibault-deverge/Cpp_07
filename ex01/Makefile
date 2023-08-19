@@ -1,6 +1,6 @@
 ###################
 ## VARIABLES
-NAME = few_functions
+NAME = iter
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g
 CC = c++
 OBJDIR = ./build
