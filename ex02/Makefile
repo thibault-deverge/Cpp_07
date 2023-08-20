@@ -4,13 +4,11 @@ NAME = array
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -g -Iincludes
 CC = c++
 OBJDIR = ./build
-SRCDIR = ./sources
 
 ##################
 ## SOURCES
 
 SRCS = ./main.cpp \
-	$(shell find $(SRCDIR) -name "*.cpp")
 
 OBJS = $(patsubst %.cpp,$(OBJDIR)/%.o,$(SRCS))
 
